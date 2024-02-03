@@ -10,6 +10,7 @@ In addition, information has a counter-factual character:
 ## Structure
 
 - introductions
+- computation
 - information
 - substrate independent property
 - counter-factual basis
@@ -39,3 +40,13 @@ Since the blank state represent the information variable for which the receiver 
 - The **output** of a *measurement* is `information`; the **input** of a *preparation* includes **information**, specifying an `attribute` with which a **physical system is to be prepared**.
 
 - A `process` that *distinguishes* **perfectly** whether a `message` is `x` or `y`, and *retransmits* the **message** while `retaining a copy`, is a `non-perturbing measurement`.
+
+## Computation
+
+Let `C` be a function that constructs a substrate `S` with an operator `PI`.
+
+`PI` represents the permutation operation and `C[PI]` is a constructor with the task of permuting the set `S` of two or more states, where `C[PI](S)` is the task of computing state variables.
+
+When `S` represents the set containing all the **computation variable**s and `C[PI]` is a possible task with side effect allowed, while `PI` permutes all of the elements in the set, the **computation medium** must contain at least one computation variable:
+
+    `C[PI](S) := union(for all x in S) -- {x -> PI(x)}`
