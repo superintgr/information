@@ -49,4 +49,20 @@ Let `C` be a function that constructs a substrate `S` with an operator `PI`.
 
 When `S` represents the set containing all the **computation variable**s and `C[PI]` is a possible task with side effect allowed, while `PI` permutes all of the elements in the set, the **computation medium** must contain at least one computation variable:
 
-    `C[PI](S) := union(for all x in S) -- {x -> PI(x)}`
+    `C[PI](S) := union(for all x in S) .. {x -> PI(x)}`
+
+## Information
+
+We consider two instances of a substrate `Š` where the substrate has a set `S` containing all of the possible attributes of the substrate type.
+
+The cloning task `Ī[S]` of some information variable `x` using some `x[0]` as a variable unrelated to `x` of all possible attributes of `Š`
+
+    `Ī[S](x[0]) := union(for all x in S) .. {(x, x[0]) -> (x, x)}`
+
+on `Š + Š` where `x[0]` could be prepared from generic, naturally occuring resources to be contained in `Š`.
+
+The cloning of information for all possible attributes in `Š` of set `S` is possible if `Ī[S](x[0])` is a possible task with side effects allowed.
+
+- *Information varible* is a **clonable** computational variable.[
+- *Information attribute* is a **member** of an information variable.
+- *Information medium* is a **substrate** that has at least one information variable.
