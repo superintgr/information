@@ -63,6 +63,6 @@ on `Š + Š` where `x[0]` could be prepared from generic, naturally occuring res
 
 The cloning of information for all possible attributes in `Š` of set `S` is possible if `Ī[S](x[0])` is a possible task with side effects allowed.
 
-- *Information varible* is a **clonable** computational variable.[
-- *Information attribute* is a **member** of an information variable.
-- *Information medium* is a **substrate** that has at least one information variable.
+- **Information varible** is a *clonable* `computational variable`.
+- **Information attribute** is a *member* of an `information variable`.
+- **Information medium** is a *substrate* that has at least one `information variable`.
