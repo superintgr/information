@@ -1,3 +1,22 @@
+[openai][loader] : [completion][modification]
+[collection][prompt] : [context][configuration]
+[request][complete][query] : [expectation][response][completion][projection]
+
+[buffer][request][protocol] : [keep at least one whole frame of completion]
+[frame][reserved context + retained completion] : [prompt][query][completion sampled from buffered selection]
+
+[how to select buffer size] and [buffered frame interpolation]
+[define expectation value] from [local context progression]
+[find limiting case for top-k buffered expectation quantity] or [postprocess existing weighting variables]
+
+
+
+
+
+
+
+[~]
+
 [orbit] : [*root*]
 [module][set] : [orbit][*root]
 [event][[*orbit][root*] : [**set] @ [event] % [*root*]
