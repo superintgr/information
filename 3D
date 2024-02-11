@@ -1,0 +1,14 @@
+[orbit] : [*root*]
+[module][set] : [orbit][*root]
+[event][[*orbit][root*] : [**set] @ [event] % [*root*]
+
+[recording][meeting][orbital] : [path][*][%][.]
+[.][%][*] : [participant][group][attention] @ orbit[orbit]
+
+[all][vote] : [distribute][weight] @ [orbit][*true][false*]
+[evidence][*root*] : [all][*orbit][**orbital][root*][**module]
+
+[all participating objects have conserved quantities]
+[quantity conserved is a covarient for all asserted trajectory started here]
+[effect of agreement implies linear operations]
+[effect of conficting arguments invoke non-linear transition]
