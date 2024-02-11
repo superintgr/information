@@ -1,5 +1,22 @@
-A typical computer logic is defined on what physical gates and interconnects allow one of two states of associated variable pairs could be evalutated at each step.
 
-The communication is one way from pre defined registers to programmable variations of those registers thus always computing a function of single variable where the variable is realized through another function of same degree.
+[name] : [space][identity][position]
+[handler] : [time][context][vector]
+[position] : [shape][index][scalar]
 
-There is a overhead which cuts the possible degrees to a constant limiting voltage and all possible degrees are serial compositions of same limit cases.
+[[[.][..][position] : [horizon][event][azimuth]
+[.][handler][...] : [dense][volume][surface]
+[name][..][...] : [gas][liquid][solid]]]
+
+[[[file] : [name][handler][position]
+[memory][star][category][rank] : [set][content][file]
+[pair in set][content][file]
+[dictionary][string][hash] : [integer][loader][file]]]
+
+[top][level][dimension] : [bit][step][bar]
+[100][0:0:1][0:00:00:1] : [001][1/10][1/5]
+[110][0:1:1][0:00:00:2] : [011][2/10][2/5]
+[111][1:1:1][0:00:00:3] : [111][3/10][3/5]
+[000][0:0:0][0:00:00:4] : [000][4/10][4/5]
+[001][1:0:0][0:00:00:5] : [100][5/10][5/5]
+..
+
