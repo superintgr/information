@@ -26,3 +26,8 @@
 [000010][**nam][***ttyl0] : [***shell][1111110][000001]
 ..
 
+[std][input] : [interface][outgoing]
+[std][output] : [terminal][incoming]
+[terminal][std][i][o] : [interface][o][i][terminal]
+
+[tty][logic] : [in][std] : [terminal][out] : [interface][std]
