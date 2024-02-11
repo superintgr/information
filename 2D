@@ -20,3 +20,9 @@
 [001][1:0:0][0:00:00:5] : [100][5/10][5/5]
 ..
 
+[buffer][input][function] : [operator][message][output]
+[000001][usrPi][handlrQ*] : [actorN50][0100010][000011]
+[000100][getgo][***usrPi] : [handlrQ*][0001011][001100]
+[000010][**nam][***ttyl0] : [***shell][1111110][000001]
+..
+
