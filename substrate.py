@@ -1,15 +1,13 @@
 from torch.utils.data import Dataset
 import torch
 
-class Datum(Dataset):
-    def __init__(self, input, output=None):
-        # Stacking expecration tensor into one tensor state with definite value
-        # e.g. [[states]] -> [[state]] : [[value]] -> [[state]] : [[some possible logical state], [some other possible logical state]]
-        self.data = torch.stack(input)
-        self.label = torch.stack(y)
+class Information(Dataset):
+    def __init__(self, input, output):
+        self.source = torch.stack(input)
+        self.transducer = torch.stack(output)
       
-    def __getitem__(self, idx):
-        return self.data[idx], self.label[idx]
+    def __getitem__(self, variable):
+        return self.source[variable], self.transducer[variable]
       
     def __len__(self):
-        return len(self.data)
+        return len(self.source)
