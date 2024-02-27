@@ -1,0 +1,13 @@
+nodes : ()
+fields : {}
+antinodes : []
+
+Transformers are collected via a pair of coils.
+. Coils are connected via magnetic field common to both.
+. Changes are described in terms of voltage levels.
+
+At the node endpoints, electric fields are producer of the voltage states.
+Transformer defined between them transports energy between them.
+Gradient information is collected through voltage differences respectively in ordered manner.
+
+Constructors are required for dynamical transformations.
