@@ -1,4 +1,12 @@
 [..] quantum theory of computation. The most elementary, but important, thing to understand about measurements, is that they are physical processes that we understand using the same theory and laws of physics as we do for all other physical processes.
 A measurement is a process in which one physical system, a measuring instrument, interacts with another physical system that is being measured and some observable of the measuring instrument is affected by some observable of the system being measured, and ends up ideally having the same value. 
 
-[measurement] : Let’s confine our attention for the moment to the useful idealization of a perfect measurement. We can define a perfect measurement process by the effect it has when the observable being measured is sharp—has a single value.
+[measurement] : Let’s confine our attention for the moment to the useful idealization of a perfect measurement.
+. [perfect] : We can define a perfect measurement process by the effect it has when the observable being measured is sharp—has a single value.
+
+
+
+
+processes : {}
+observables : []
+values : ()
