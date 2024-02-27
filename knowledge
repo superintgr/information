@@ -1,3 +1,10 @@
 assertions : {}
 implications : []
 principles : ()
+
+[pritom] : Ask the following three questions:
+- who started it?
+~ are we going to make it?
++ where are we going to put it?
+* who is going to clean up?
+[watts]
